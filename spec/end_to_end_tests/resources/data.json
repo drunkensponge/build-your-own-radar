@@ -17,7 +17,7 @@
     "name": "Dragonfly",
     "ring": "Assess",
     "quadrant": "Platforms",
-    "isNew": "TRUE",
+    "status": "moved out",
     "description": "<p><strong><a href=\"https://github.com/dragonflydb/dragonfly\">Dragonfly</a></strong> is a new in-memory data store with compatible <a href=\"/radar/platforms/redis\">Redis</a> and Memcached APIs. It leverages the new Linux-specific <a href=\"https://github.com/axboe/liburing\">io_uring</a> API for I/O and implements <a href=\"https://dragonflydb.io/blog/2022/06/23/cache_design/\">novel algorithms and data structures</a> on top of a multithreaded, shared-nothing architecture. Because of these clever choices in implementation, Dragonfly achieves impressive results in performance. Although Redis continues to be our default choice for in-memory data store solutions, we do think Dragonfly is an interesting choice to assess.</p>"
   },
   {
